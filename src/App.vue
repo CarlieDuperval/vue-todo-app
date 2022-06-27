@@ -43,7 +43,7 @@ watch(
   (newVal) => {
     localStorage.setItem("todos", JSON.stringify(newVal)); //because it is an object we need to stringfy it
   },
-  { deep: true } // because todos is an array, we need "deep" to look through the array
+  { deep: true } // todos is an array,  "deep" allows  to look through the array
 );
 // if the variable "name" changes with the input, we will store the newVal in the localstorage
 watch(name, (newVal) => {
