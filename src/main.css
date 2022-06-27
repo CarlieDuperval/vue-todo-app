@@ -195,6 +195,7 @@ input:checked ~ .bubble::after{
 
 .todo-item .actions{
     display: flex;
+    width: 96%;
     align-items: 1.125rem;
 }
 
